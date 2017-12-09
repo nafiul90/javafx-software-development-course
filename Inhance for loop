@@ -1,0 +1,44 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package arralist;
+
+import java.util.ArrayList;
+
+
+
+
+
+/**
+ *
+ * @author nafiul
+ */
+public class Arralist {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        ArrayList<String> list=new ArrayList();
+        
+        list.add("apple");
+        list.add("orange");
+        list.add("pineapple");
+        list.add("banana");
+        list.add("jack-fruit");
+        
+//        for(int i=0;i<list.size();i++){
+//            System.out.println(list.get(i));
+//        }
+        
+        for(String i:list){
+            System.out.println(i);
+        }
+        
+    }
+
+    
+}
